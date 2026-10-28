@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "azILoJ2zjwiUrd9ipENseAUUzF+/MEXDp0DuVTxE78A=",
+  "Source": "ExamNex",
+  "BasePath": "_content/ExamNex",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ExamNex\\wwwroot",
+      "Source": "ExamNex",
+      "ContentRoot": "C:\\Users\\manda\\Downloads\\ExamNex-Website-Files\\ExamNex\\wwwroot\\",
+      "BasePath": "_content/ExamNex",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\manda\\Downloads\\ExamNex-Website-Files\\ExamNex\\wwwroot\\app.js",
+      "SourceId": "ExamNex",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\manda\\Downloads\\ExamNex-Website-Files\\ExamNex\\wwwroot\\",
+      "BasePath": "_content/ExamNex",
+      "RelativePath": "app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.js"
+    },
+    {
+      "Identity": "C:\\Users\\manda\\Downloads\\ExamNex-Website-Files\\ExamNex\\wwwroot\\index.html",
+      "SourceId": "ExamNex",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\manda\\Downloads\\ExamNex-Website-Files\\ExamNex\\wwwroot\\",
+      "BasePath": "_content/ExamNex",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\manda\\Downloads\\ExamNex-Website-Files\\ExamNex\\wwwroot\\styles.css",
+      "SourceId": "ExamNex",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\manda\\Downloads\\ExamNex-Website-Files\\ExamNex\\wwwroot\\",
+      "BasePath": "_content/ExamNex",
+      "RelativePath": "styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles.css"
+    }
+  ]
+}

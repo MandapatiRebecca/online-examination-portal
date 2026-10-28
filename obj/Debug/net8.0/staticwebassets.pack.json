@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\manda\\Downloads\\ExamNex-Website-Files\\ExamNex\\wwwroot\\app.js",
+      "PackagePath": "staticwebassets\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\manda\\Downloads\\ExamNex-Website-Files\\ExamNex\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\manda\\Downloads\\ExamNex-Website-Files\\ExamNex\\wwwroot\\styles.css",
+      "PackagePath": "staticwebassets\\styles.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ExamNex.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ExamNex.props",
+      "PackagePath": "build\\ExamNex.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ExamNex.props",
+      "PackagePath": "buildMultiTargeting\\ExamNex.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ExamNex.props",
+      "PackagePath": "buildTransitive\\ExamNex.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

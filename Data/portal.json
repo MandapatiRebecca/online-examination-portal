@@ -1,0 +1,252 @@
+{
+  "Users": [
+    {
+      "Id": "u-admin",
+      "Name": "System Administrator",
+      "Username": "admin",
+      "Password": "Admin@123",
+      "Role": "Admin",
+      "Department": "Administration"
+    },
+    {
+      "Id": "u-lecturer",
+      "Name": "Dr. Priya Sharma",
+      "Username": "lecturer",
+      "Password": "Teach@123",
+      "Role": "Lecturer",
+      "Department": "Information Technology"
+    },
+    {
+      "Id": "u-student",
+      "Name": "Aarav Kumar",
+      "Username": "student",
+      "Password": "Student@123",
+      "Role": "Student",
+      "Department": "Information Technology"
+    },
+    {
+      "Id": "u-student2",
+      "Name": "Ananya Rao",
+      "Username": "ananya",
+      "Password": "Student@123",
+      "Role": "Student",
+      "Department": "Computer Science"
+    }
+  ],
+  "Exams": [
+    {
+      "Id": "exam-demo",
+      "Title": "C# \u0026 OOP Fundamentals",
+      "Subject": "Programming with Objects",
+      "Description": "A sample assessment covering classes, objects, inheritance and polymorphism.",
+      "Category": "Programming",
+      "DurationMinutes": 20,
+      "TotalMarks": 10,
+      "NegativeMark": 0.25,
+      "AccessCode": "",
+      "StartAt": null,
+      "EndAt": null,
+      "Published": true,
+      "ShuffleQuestions": true,
+      "CreatedBy": "u-lecturer"
+    }
+  ],
+  "Questions": [
+    {
+      "Id": "7cc08ea4840d4aa1a7dcdc0a0b2b8151",
+      "ExamId": "exam-demo",
+      "Text": "Which keyword is used to create an object in C#?",
+      "Options": [
+        "new",
+        "class",
+        "this",
+        "base"
+      ],
+      "CorrectIndex": 0,
+      "Marks": 1,
+      "Difficulty": "Easy"
+    },
+    {
+      "Id": "0a8013d72e3b4601a22f654326071939",
+      "ExamId": "exam-demo",
+      "Text": "Which OOP concept hides internal implementation details?",
+      "Options": [
+        "Inheritance",
+        "Encapsulation",
+        "Polymorphism",
+        "Overloading"
+      ],
+      "CorrectIndex": 1,
+      "Marks": 1,
+      "Difficulty": "Easy"
+    },
+    {
+      "Id": "f8d85df3f6f44fb7bf628b5e9000bbe3",
+      "ExamId": "exam-demo",
+      "Text": "Which access modifier makes a member accessible only within its class?",
+      "Options": [
+        "public",
+        "protected",
+        "private",
+        "internal"
+      ],
+      "CorrectIndex": 2,
+      "Marks": 1,
+      "Difficulty": "Easy"
+    },
+    {
+      "Id": "69eb32c88e0b40ba81e1331646829e6a",
+      "ExamId": "exam-demo",
+      "Text": "Which symbol is used for inheritance in C#?",
+      "Options": [
+        ":",
+        "-\u003E",
+        "extends",
+        "implements"
+      ],
+      "CorrectIndex": 0,
+      "Marks": 1,
+      "Difficulty": "Easy"
+    },
+    {
+      "Id": "06695a3418c84c04a2623529f21b6501",
+      "ExamId": "exam-demo",
+      "Text": "Which method has the same name as its class?",
+      "Options": [
+        "Destructor",
+        "Constructor",
+        "Static method",
+        "Main"
+      ],
+      "CorrectIndex": 1,
+      "Marks": 1,
+      "Difficulty": "Easy"
+    },
+    {
+      "Id": "d45ced6a77804281b9369f8fd480b187",
+      "ExamId": "exam-demo",
+      "Text": "Which keyword prevents a class from being inherited?",
+      "Options": [
+        "static",
+        "sealed",
+        "abstract",
+        "virtual"
+      ],
+      "CorrectIndex": 1,
+      "Marks": 1,
+      "Difficulty": "Easy"
+    },
+    {
+      "Id": "51f9e5d50a4a40de8b652c8601000f42",
+      "ExamId": "exam-demo",
+      "Text": "Which feature allows one interface with many implementations?",
+      "Options": [
+        "Encapsulation",
+        "Abstraction",
+        "Polymorphism",
+        "Compilation"
+      ],
+      "CorrectIndex": 2,
+      "Marks": 1,
+      "Difficulty": "Easy"
+    },
+    {
+      "Id": "eb3044f48a0744168379090836901896",
+      "ExamId": "exam-demo",
+      "Text": "Which collection stores key-value pairs?",
+      "Options": [
+        "List",
+        "Queue",
+        "Dictionary",
+        "Stack"
+      ],
+      "CorrectIndex": 2,
+      "Marks": 1,
+      "Difficulty": "Easy"
+    },
+    {
+      "Id": "f5b1c3e2d398419c81260b2be4610cab",
+      "ExamId": "exam-demo",
+      "Text": "Which keyword refers to the current object?",
+      "Options": [
+        "base",
+        "this",
+        "self",
+        "current"
+      ],
+      "CorrectIndex": 1,
+      "Marks": 1,
+      "Difficulty": "Easy"
+    },
+    {
+      "Id": "802f885875434b7b9d9ef9d2cd50884d",
+      "ExamId": "exam-demo",
+      "Text": "Which block handles exceptions?",
+      "Options": [
+        "try-catch",
+        "if-else",
+        "for-loop",
+        "switch"
+      ],
+      "CorrectIndex": 0,
+      "Marks": 1,
+      "Difficulty": "Easy"
+    }
+  ],
+  "Attempts": [
+    {
+      "Id": "9f7a0aa6d5b34376aaaa785aa1755163",
+      "ExamId": "exam-demo",
+      "StudentId": "u-student",
+      "StartedAt": "2026-10-28T22:52:30.3915611+05:30",
+      "SubmittedAt": "2026-10-28T22:53:39.9490607+05:30",
+      "Answers": [
+        {
+          "QuestionId": "f5b1c3e2d398419c81260b2be4610cab",
+          "SelectedIndex": 0
+        },
+        {
+          "QuestionId": "7cc08ea4840d4aa1a7dcdc0a0b2b8151",
+          "SelectedIndex": -1
+        },
+        {
+          "QuestionId": "0a8013d72e3b4601a22f654326071939",
+          "SelectedIndex": -1
+        },
+        {
+          "QuestionId": "eb3044f48a0744168379090836901896",
+          "SelectedIndex": -1
+        },
+        {
+          "QuestionId": "d45ced6a77804281b9369f8fd480b187",
+          "SelectedIndex": 1
+        },
+        {
+          "QuestionId": "802f885875434b7b9d9ef9d2cd50884d",
+          "SelectedIndex": -1
+        },
+        {
+          "QuestionId": "69eb32c88e0b40ba81e1331646829e6a",
+          "SelectedIndex": -1
+        },
+        {
+          "QuestionId": "51f9e5d50a4a40de8b652c8601000f42",
+          "SelectedIndex": -1
+        },
+        {
+          "QuestionId": "06695a3418c84c04a2623529f21b6501",
+          "SelectedIndex": -1
+        },
+        {
+          "QuestionId": "f8d85df3f6f44fb7bf628b5e9000bbe3",
+          "SelectedIndex": -1
+        }
+      ],
+      "Score": 0.75,
+      "Correct": 1,
+      "Wrong": 1,
+      "Unanswered": 8,
+      "Warnings": 0
+    }
+  ]
+}
